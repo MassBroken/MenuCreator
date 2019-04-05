@@ -15,7 +15,7 @@ int createMenu(menuSetting *m){
         k++;
     }
     //printing the menu. this is cleared at every event, in order to select the proper option
-    //DON'T MOVE THE SYSTEM CALL INTO THE LOOP. IT WILL SLOW DOWN EVERYTHING
+    //DON'T MOVE THE SYSTEM CALL INTO THE LOOP. IT WILL SLOW EVERYTHING DOWN
     system("cls");
     while (exit!=0){
         printf(" _____________________________________________________\n");
